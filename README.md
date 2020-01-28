@@ -1,7 +1,7 @@
 This is a community led site to showcase awesome cheatsheets created from egghead courses. This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <div align="center">
@@ -66,6 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://laurosilva.com"><img src="https://avatars2.githubusercontent.com/u/57044804?v=4" width="100px;" alt=""/><br /><sub><b>Lauro Silva</b></sub></a><br /><a href="#content-laurosilvacom" title="Content">🖋</a> <a href="https://github.com/laurosilvacom/awesomecheatsheets/commits?author=laurosilvacom" title="Documentation">📖</a> <a href="#maintenance-laurosilvacom" title="Maintenance">🚧</a> <a href="https://github.com/laurosilvacom/awesomecheatsheets/pulls?q=is%3Apr+reviewed-by%3Alaurosilvacom" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://ianjones.us/"><img src="https://avatars2.githubusercontent.com/u/4407263?v=4" width="100px;" alt=""/><br /><sub><b>Ian Jones</b></sub></a><br /><a href="#content-theianjones" title="Content">🖋</a> <a href="#ideas-theianjones" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/nikkilr88"><img src="https://avatars3.githubusercontent.com/u/24983331?v=4" width="100px;" alt=""/><br /><sub><b>Nikki L.R.</b></sub></a><br /><a href="#content-nikkilr88" title="Content">🖋</a></td>
   </tr>
 </table>
 
