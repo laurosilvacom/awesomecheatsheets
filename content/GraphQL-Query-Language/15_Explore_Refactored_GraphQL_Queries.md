@@ -8,6 +8,12 @@ metaDescription: "Learn about the refactored Pet Library which includes a range 
 
 # 15. Explore Refactored GraphQL Queries
 
+## Summary
+
+In this lesson we go over the refactored Pet Library and get a look at some of the new queries.
+
+## Notes
+
 Our refactored pet library just got some new queries and can be found at [https://funded-pet-library.moonhighway.com/](https://funded-pet-library.moonhighway.com/).
 
 With the updates, we can now query `totalPets`, `availablePets`, `checkedOutPets` and `customersWithPets` without any additional filters. 🎉

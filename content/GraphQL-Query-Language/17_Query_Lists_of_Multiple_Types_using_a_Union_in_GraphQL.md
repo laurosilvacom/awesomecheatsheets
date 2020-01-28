@@ -8,6 +8,12 @@ metaDescription: "Learn how to use unions to write a query that obtains a list o
 
 # 17. Query Lists of Multiple Types using a Union in GraphQL
 
+## Summary
+
+In this lesson we learn about unions and how to write queries that obtain a list of multiple types.
+
+## Notes
+
 In the refactored pet library there are some more queries that we haven't had a look at yet, `familyPets` and `exoticPets`.
 
 If you open up the schema and click on `familyPets`, you will see some helpful documentation that says `"This query returns a list of Family Pets, either a Cat or Dog."`

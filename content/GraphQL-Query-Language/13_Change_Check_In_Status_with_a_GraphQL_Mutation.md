@@ -8,7 +8,13 @@ metaDescription: "Learn how to check a pet in using a pet id."
 
 # 13. Change Check In Status with a GraphQL Mutation
 
-In this lesson it's time to check our pet back in. To ge this done, we are going to use the named mutation `checkIn`.
+## Summary
+
+In this lesson we learn how to check a pet in using a pet id.
+
+## Notes
+
+It's time to check our pet back in. To ge this done, we are going to use the named mutation `checkIn`.
 
 The `checkIn` mutation takes in a pet id and returns an object called `checkOut`. `checkOut` returns the `pet` object, `checkOutDate`, `checkInDate` and a boolean `late`.
 

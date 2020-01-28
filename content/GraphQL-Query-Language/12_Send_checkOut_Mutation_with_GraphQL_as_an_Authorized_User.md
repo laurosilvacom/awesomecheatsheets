@@ -8,6 +8,12 @@ metaDescription: "Learn how to how to send a mutation based on current data to c
 
 # 12. Send a checkOut Mutation with GraphQL as an Authorized User
 
+## Summary
+
+In this lesson we learn how to how to send a mutation based on current data to check out pets.
+
+## Notes
+
 Once logged in, the user will be able to check out pets with a `checkOut` mutation. First we need to know which pets are available.
 
 We can do this by quering `allPets`.

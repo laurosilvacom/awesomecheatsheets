@@ -8,6 +8,12 @@ metaDescription: "Learn about interfaces and how to use them to query different 
 
 # 16. Query GraphQL Interface Types in GraphQL Playground
 
+## Summary
+
+In this lesson we learn about interfaces and how to use them to query different types of pets
+
+## Notes
+
 If we send the `allPets` query, we'll get back `id` and `name` just as expected, but the data relationships in the new pet library are set up differently.
 
 If we open the `allPets` query in the schema, we'll see that it's no longer a type, but an interface. _An interface is an abstract type that includes a set of fields, and these fields must be used when creating new instances of that interface._

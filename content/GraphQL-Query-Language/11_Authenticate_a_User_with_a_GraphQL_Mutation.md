@@ -8,7 +8,13 @@ metaDescription: "Learn how to use a mutation to authenticate a user with their 
 
 # 11. Authenticate a User with a GraphQL Mutation
 
-In this lesson we learn how to authenticate a user using mutations. Mutations let you invoke backend functions from the client.
+## Summary
+
+In this lesson we learn how to authenticate a user using mutations.
+
+## Notes
+
+Mutations let you invoke backend functions from the client. Here we will use the `logIn` mutation to log in a user.
 
 ```graphql
 mutation {

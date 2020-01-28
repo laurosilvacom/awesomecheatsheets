@@ -8,7 +8,13 @@ metaDescription: "Learn how to improve our query logic by creating a fragment fo
 
 # 14. Reuse GraphQL Selection Sets with Fragments
 
-In this lesson we learn how to use fragments. Fragments are selection sets that can be used across multiple queries. They allow us to refactor redundant selection sets, and they are essential when querying unions or interface types.
+## Summary
+
+In this lesson we learn how to use fragments.
+
+## Notes
+
+Fragments are selection sets that can be used across multiple queries. They allow us to refactor redundant selection sets, and they are essential when querying unions or interface types.
 
 First we are going to query `allPets` and filter the results so we only get back available rabbits.
 

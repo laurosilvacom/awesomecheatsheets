@@ -8,6 +8,12 @@ metaDescription: "Learn how to listen to checkIn and checkOut mutations in real 
 
 # 18. Listen for Data Changes in Real-time with a GraphQL Subscription
 
+## Summary
+
+In this lesson we learn about subscriptions and how to listen for changes in real time.
+
+## Notes
+
 If we wanted to set up a realtime listener for anytime a pet is returned, we would use a `subscription`.
 
 To check in a pet, we first have to check one out, so let's do that (don't forget to log in and add the token to the HTTP headers!).
