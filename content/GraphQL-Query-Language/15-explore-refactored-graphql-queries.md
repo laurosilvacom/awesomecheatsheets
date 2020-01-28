@@ -6,8 +6,6 @@ metaDescription: "Learn about the refactored Pet Library which includes a range 
 
 [Video Link](https://egghead.io/lessons/graphql-explore-refactored-graphql-queries)
 
-# 15. Explore Refactored GraphQL Queries
-
 ## Summary
 
 In this lesson we go over the refactored Pet Library and get a look at some of the new queries.
