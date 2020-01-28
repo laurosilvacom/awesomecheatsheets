@@ -6,8 +6,6 @@ metaDescription: "Learn how to how to send a mutation based on current data to c
 
 [Video Link](https://egghead.io/lessons/graphql-send-a-checkout-mutation-with-graphql-as-an-authorized-user)
 
-# 12. Send a checkOut Mutation with GraphQL as an Authorized User
-
 ## Summary
 
 In this lesson we learn how to how to send a mutation based on current data to check out pets.
