@@ -6,8 +6,6 @@ metaDescription: "Learn how to improve our query logic by creating a fragment fo
 
 [Video Link](https://egghead.io/lessons/graphql-reuse-graphql-selection-sets-with-fragments)
 
-# 14. Reuse GraphQL Selection Sets with Fragments
-
 ## Summary
 
 In this lesson we learn how to use fragments.
