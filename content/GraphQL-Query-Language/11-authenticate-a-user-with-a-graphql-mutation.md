@@ -6,8 +6,6 @@ metaDescription: "Learn how to use a mutation to authenticate a user with their 
 
 [Video Link](https://egghead.io/lessons/graphql-authenticate-a-user-with-a-graphql-mutation)
 
-# 11. Authenticate a User with a GraphQL Mutation
-
 ## Summary
 
 In this lesson we learn how to authenticate a user using mutations.
