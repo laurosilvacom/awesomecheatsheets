@@ -120,7 +120,7 @@ export default class MDXRuntimeTest extends Component {
           </Edit>
         </div>
         <div className={'mainWrapper'}>
-          {videoLink && <EggheadEmbed link='https://egghead.io/lessons/graphql-send-a-query-with-graphql-playground/embed' />}
+          {videoLink && <EggheadEmbed link={`${videoLink}/embed`} />}
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
         <div className={'addPaddTopBottom'}>
