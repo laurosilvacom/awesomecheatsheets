@@ -26,12 +26,14 @@ const config = {
 		"forcedNavOrder": [
 			"/GraphQL-Query-Language",
 			"/Composable-Gatsby-Themes",
-			"/Automate-Daily-Development-Tasks-Bash"
+			"/Automate-Daily-Development-Tasks-Bash",
+			"/Immutable-JavaScript-Data-Structures-with-Immer"
 		],
     	"collapsedNav": [
 			"/GraphQL-Query-Language",
 			"/Composable-Gatsby-Themes",
-			"/Automate-Daily-Development-Tasks-Bash"
+			"/Automate-Daily-Development-Tasks-Bash",
+			"/Immutable-JavaScript-Data-Structures-with-Immer"
     	],
 		"links": [
 			{ "text": "Repo", "link": "https://github.com/laurosilvacom/awesomecheatsheets"},
