@@ -2,6 +2,7 @@
 title: "01. Send a Query with GraphQL Playground"
 metaTitle: "01. Send a Query with GraphQL Playground"
 metaDescription: "Learn how to send a Query with GraphQL Playground."
+videoLink: https://egghead.io/lessons/graphql-send-a-query-with-graphql-playground
 ---
 
 [Video Link](https://egghead.io/lessons/graphql-send-a-query-with-graphql-playground)
