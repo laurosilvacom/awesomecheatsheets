@@ -42,7 +42,7 @@ module.exports = {
 };
 ```
 
-A basic (non Oclif) jest test looks like this - it can be helpful (and much faster) to test core logic outside of Oclif commands:
+A basic jest test looks like this - it can be helpful to test core logic outside of Oclif commands:
 
 ```js
 // /test/jest/foo.ts
@@ -81,4 +81,4 @@ describe("hello", () => {
 
 ## Personal Take
 
-To be useful and trustworthy, your CLIs should be extraordinarily reliable. Investing in testing early will reap rewards in future.
+- Investing in testing early will reap rewards in future.

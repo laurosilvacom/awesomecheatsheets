@@ -6,9 +6,9 @@ metaDescription: "Sometimes you still want to support the API and quick develope
 
 ## Notes
 
-Sometimes you still want to support the API and quick developer experience of a single command, while still supporting multi commands in your CLI.
+To support multi commands in your CLI:
 
-The way you do this is you go into the bin directory of the oclif command, `packages/mycli/bin/run`.
+Go into the bin directory of the oclif command, `packages/mycli/bin/run`.
 
 And check out the `run` file. This is where we actually get some insight into how oclif works with TypeScript under the hood and initializes its commands.
 
@@ -31,4 +31,4 @@ require(`../${dev ? "src" : "lib"}`)
 
 ## Personal Take
 
-Theoretically, we can actually have a list of recognized commands, for example `init`, `serve`, and `build`. Then we can put an if block saying that if there's a `process.argv`, if the length is more than two, which means that there is an additional multi-command selected and it's a `recognizedCommand`, then we run the multi-command code.
+You can actually have a list of recognized commands, for example `init`, `serve`, and `build`. Then we can put an if block saying that if there's a `process.argv`, if the length is more than two, which means that there is an additional multi-command selected and it's a `recognizedCommand`, then we run the multi-command code.

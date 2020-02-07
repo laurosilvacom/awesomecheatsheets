@@ -42,7 +42,7 @@ $ npx mynewcli
 Node.js isn't the only language/environment to write CLI's with. It can be slower than Go or Rust. But it has two advantages:
 
 - JS devs will already have it installed, no extra step needed
-- Being able to leverage the vast npm ecosystem, including everything Sindre Sorhus has done
+- Being able to leverage the vast npm ecosystem
 
 ## Additional Resources
 

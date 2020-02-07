@@ -1,9 +1,3 @@
-This is a community led site to showcase awesome cheatsheets created from egghead courses. This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 <div align="center">
   <img
     height="300"
@@ -14,19 +8,27 @@ This is a community led site to showcase awesome cheatsheets created from egghea
   />
 </div>
 
-## How to contribute
+<div align="center">
+  <p align="center">
 
-We are actively looking for contributors and maintainers, so you are more than welcome. Some core principles that we will follow so that this repo doesn't get too wild.
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/477d7ede-6d6d-48c8-9527-cbc7206cbe7b/deploy-status)](https://app.netlify.com/sites/awesomecheatsheets/deploys)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-- This repo hosts cheatsheets for egghead course only.
+  </p>
+</div>
+
+This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets.
+
+# Contributing
+
+Some key points to follow so that this repo doesn't get too wild.
+
+- This repo hosts cheatsheet for egghead courses only.
 - One cheatsheet per course.
-- One document for each lesson in the course.
-  - Each lesson includes notes that follow the same structure of the lesson/transcript, additional rewrites, links to resources, and your personal take on the lesson.
-- If a course has already been covered, feel free to submit additions. But please don't remove anything (unless we messed up or misunderstood something, or you consider important adding additional resources).
+- If a course has already been covered, feel free to submit additions.
 
-That's all I've got! Again, really happy you are thinking about helping out, who knows, the person who you might be helping is yourself in future!
-
-## Quickstart
+### Development
 
 Get started by running the following commands:
 
@@ -38,28 +40,25 @@ $ npm start
 
 Visit `http://localhost:8000/` to view the app.
 
-At the root of the folder `content`, add the index file for your cheatsheet. Next, create a folder with the same name. Inside your folder you’ll add a `.md` document for each lesson.
+### Adding new cheatsheet
 
-Link to the repository from `/content/index.md`.
+1. At the `root` of the folder `content` add the index file for your cheatsheet.
 
-Final step is to add `force collapse`. Go into `config.js` and add the name of your folder inside `collapsedNav`.
+2. Create a folder with the same name. Inside this folder you’ll add a `.md` document for each lesson.
 
-```
-"collapsedNav": [
-  "/GraphQL-Query-Language",
-  "/Composable-Gatsby-Themes"
-],
-```
+3. Link to the repository from `/content/index.md`.
 
-## Add Author Component
+4. The final step is to add `force collapse`. Go into `config.js` and add the name of your folder inside the `collapsedNav` object.
 
-To add an author component from inside the main file for your cheatsheet, first import the `CheetsheatAuthor` component.
+### Adding Author component
+
+First import the `CheetsheatAuthor` component.
 
 ```
 import CheatsheetAuthor from '../src/CheatsheetAuthor.js';
 ```
 
-Then add the component in the same `*.md` file, following this structure.
+Then add the component in the same `*.md` file, following this example:
 
 ```
 <CheatsheetAuthor
@@ -70,13 +69,13 @@ Then add the component in the same `*.md` file, following this structure.
 />
 ```
 
-## Questions
+### Questions
 
-- If you see anything wrong or missing, please file an [issue](https://github.com/laurosilvacom/awesomecheatsheets/issues/new).
+If you see anything wrong or missing, please file an [issue](https://github.com/laurosilvacom/awesomecheatsheets/issues/new).
 
-## Contributors ✨
+## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -92,6 +91,5 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+<!-- ALL-CONTRIBUTORS-LIST:END -->

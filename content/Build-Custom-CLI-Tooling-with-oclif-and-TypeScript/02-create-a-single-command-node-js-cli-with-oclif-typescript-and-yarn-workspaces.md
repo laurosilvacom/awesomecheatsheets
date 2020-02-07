@@ -6,7 +6,7 @@ metaDescription: "Here we explain what this means and how and why to integrate t
 
 ## Notes
 
-The fastest way to create a robust, cross-platform compatible Node.js CLI (optionally typed with TypeScript) is by running `npx oclif single mycli`.
+The fastest way to create a robust, cross-platform compatible Node.js CLI is by running `npx oclif single mycli`.
 
 Oclif is both a CLI framework and a CLI that scaffolds CLI's.
 

@@ -6,7 +6,7 @@ metaDescription: "Enquirer is a great foundation to build Interactive CLIs that 
 
 ## Notes
 
-[Enquirer](https://github.com/enquirer/enquirer) is a great foundation to build Interactive CLIs that don't leak tokens and passwords, and make use of design affordances to offer beautiful and intuitive user prompts.
+[Enquirer](https://github.com/enquirer/enquirer) is a great foundation to build Interactive CLIs that don't leak tokens and passwords.
 
 These are the [built in prompts](https://www.npmjs.com/package/enquirer#built-in-prompts) you get:
 

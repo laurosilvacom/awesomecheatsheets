@@ -6,14 +6,16 @@ metaDescription: "There is no standardized tooling for doing scaffolding, since 
 
 ## Notes
 
-The best library for this is [copy-template-dir](https://www.npmjs.com/package/copy-template-dir). Given a source folder and a destination folder, copy from one to the other.
+The best library for this is [copy-template-dir](https://www.npmjs.com/package/copy-template-dir).
+
+Given a source folder and a destination folder, copy from one to the other.
 
 ```typescript
 const copy = require('copy-template-dir')
 const path = require('path')
 
 const vars = { foo: 'bar' }
-const inDir = path.join(process.cwd(), 'templates') // careful! see below
+const inDir = path.join(process.cwd(), 'templates')
 const outDir = path.join(process.cwd(), 'dist')
 
 copy(inDir, outDir, vars, (err, createdFiles) => {

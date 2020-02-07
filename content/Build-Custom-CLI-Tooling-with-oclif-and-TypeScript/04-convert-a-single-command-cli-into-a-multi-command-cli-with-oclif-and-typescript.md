@@ -6,7 +6,7 @@ metaDescription: "Heavy duty CLI's like gatsby and npm do more than one thing. T
 
 ## Notes
 
-You can run npx oclif multi mycli to start a new CLI that is multi by default.
+You can run `npx oclif multi mycli` to start a new CLI that is multi by default.
 
 ```typescript
 import { Command, flags } from "@oclif/command";
@@ -37,7 +37,7 @@ class Mycli extends Command {
 export = Mycli;
 ```
 
-The result of refactored a single command CLI into a multi command CLI:
+The result of a single command CLI refactored into a multi command CLI:
 
 ```typescript
 import { Command, flags } from "@oclif/command";
@@ -68,7 +68,7 @@ class Mycli extends Command {
 export = Mycli;
 ```
 
-Creating a multi-command CLI:
+Original command to creating a multi-command CLI:
 
 ```shell
 $ npx oclif multi mynewcli
@@ -90,4 +90,4 @@ hello world from ./src/hello.js!
 
 ## Personal Take
 
-Sometimes, we want to share logic or share initialization code for more than one command. One pattern that you can do is to have a common base command at the top level where you import that command. You use a base command that you extend directly.
+To share logic or share initialization code for more than one command add a base command at the top level where you import that command.

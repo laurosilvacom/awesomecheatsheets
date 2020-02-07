@@ -6,7 +6,7 @@ metaDescription: "Config handling is one example of highly sharable business log
 
 ## Notes
 
-Cosmiconfig will start where you tell it to start and search up the directory tree for the following:
+Cosmiconfig will start where you tell it to start and search up the directory tree:
 
 - a `package.json` property
 - a JSON or YAML, extensionless "rc file"
@@ -31,13 +31,9 @@ Result:
 
 ```js
 const { cosmiconfigSync } = require("cosmiconfig");
-// most of time sync searching is fine
 const explorerSync = cosmiconfigSync("myfirstcli");
 const searchedFor = explorerSync.search();
 const loaded = explorerSync.load(pathToConfig);
-// now you can use
-// loaded.config - the parsed config object
-// loaded.filepath - the path to the found config
 ```
 
 ## Personal Take

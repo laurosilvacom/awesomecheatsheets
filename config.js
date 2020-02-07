@@ -10,7 +10,7 @@ const config = {
 		"title": "Awesome Cheatsheets",
 		"githubUrl": "https://github.com/laurosilvacom/awesomecheatsheets",
 		"helpUrl": "https://github.com/laurosilvacom/awesomecheatsheets/issues/new",
-		"tweetText": "Check out the community led cheatsheets for @eggheadio courses! 🤓 https://AwesomeCheatsheets.com by @laurosilvacom",
+		"tweetText": "This is meant to be a community resource, so feel free to contribute by adding your notes/cheatsheets: https://AwesomeCheatsheets.com by @laurosilvacom",
 		"links": [
 			{ "text": "", "link": ""}
 		],

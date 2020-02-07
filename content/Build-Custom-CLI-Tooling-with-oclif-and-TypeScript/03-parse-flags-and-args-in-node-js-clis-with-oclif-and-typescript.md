@@ -10,7 +10,9 @@ metaDescription: "Oclif helps you parse them and declaratively indicate requirem
 - Flags can either be option flags which take an argument, or boolean flags which do not. An option flag must have an argument.
 - For larger CLIs, it can be useful to declare a custom flag that can be shared amongst multiple commands.
 
-**Arguments** are positional arguments passed to the command. For example, if this command was run with `mycli arg1 arg2` it would be declared like this:
+**Arguments** are positional arguments passed to the command.
+
+For example, if this command was run with `mycli arg1 arg2` it would be declared like this:
 
 ```js
 import Command from '@oclif/command'
@@ -62,8 +64,7 @@ static flags = {
 
 ## Personal Take
 
-🔥multiple arguments are fine but when they are different types, that's when you get into issues.
-
+- Multiple arguments are fine but when they are different types, that's when you get into issues.
 - A good rule of thumb: is 1 type of argument is fine, 2 types are very suspect, and 3 are never good.
 
 ## Additional Resources

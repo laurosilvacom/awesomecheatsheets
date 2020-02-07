@@ -6,7 +6,9 @@ metaDescription: "CLI's gain an extra level of power when you realize they can s
 
 ## Notes
 
-CLI's gain an extra level of power when you realize they can start and manage other CLI's and run multiple concurrent child processes. Two ways to implement this: with `execa` and with a dedicated `yarn-or-npm` utility, because this is such a common usecase.
+Add an extra level of power by runnigng multiple concurrent child processes.
+
+Two ways to implement this: with `execa` and with a dedicated `yarn-or-npm` utility.
 
 Node child process API:
 
