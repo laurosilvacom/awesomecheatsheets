@@ -5,6 +5,7 @@ import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
 import styled from "@emotion/styled";
 import { Layout, Link } from "$components";
 import NextPrevious from '../components/NextPrevious';
+import EggheadEmbed from '../EggheadEmbed'
 import '../components/styles.css';
 import config from '../../config';
 
@@ -40,7 +41,7 @@ const Edit = styled('div')`
 export default class MDXRuntimeTest extends Component {
   render() {
     const { data } = this.props;
-    if(!data) {
+    if (!data) {
       return null;
     }
     const {
@@ -79,7 +80,7 @@ export default class MDXRuntimeTest extends Component {
       }, [])
       .concat(navItems.items)
       .map(slug => {
-        if(slug) {
+        if (slug) {
           const { node } = allMdx.edges.find(
             ({ node }) => node.fields.slug === slug
           );
@@ -91,6 +92,7 @@ export default class MDXRuntimeTest extends Component {
     // meta tags
     const metaTitle = mdx.frontmatter.metaTitle;
     const metaDescription = mdx.frontmatter.metaDescription;
+    const videoLink = mdx.frontmatter.videoLink
     let canonicalUrl = config.gatsby.siteUrl;
     canonicalUrl = config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
     canonicalUrl = canonicalUrl + mdx.fields.slug;
@@ -98,7 +100,7 @@ export default class MDXRuntimeTest extends Component {
     return (
       <Layout {...this.props}>
         <Helmet>
-          {metaTitle ? <title>{metaTitle}</title> : null }
+          {metaTitle ? <title>{metaTitle}</title> : null}
           {metaTitle ? <meta name="title" content={metaTitle} /> : null}
           {metaDescription ? <meta name="description" content={metaDescription} /> : null}
           {metaTitle ? <meta property="og:title" content={metaTitle} /> : null}
@@ -118,6 +120,7 @@ export default class MDXRuntimeTest extends Component {
           </Edit>
         </div>
         <div className={'mainWrapper'}>
+          {videoLink && <EggheadEmbed link={`${videoLink}/embed`} />}
           <MDXRenderer>{mdx.body}</MDXRenderer>
         </div>
         <div className={'addPaddTopBottom'}>
@@ -152,6 +155,7 @@ export const pageQuery = graphql`
       frontmatter {
         metaTitle
         metaDescription
+        videoLink
       }
     }
     allMdx {
