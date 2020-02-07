@@ -1,5 +1,5 @@
 ---
-title: "Automate Daily Development Tasks with Bash Course"
+title: "Automate Daily Development Tasks with Bash"
 metaTitle: "Automate Daily Development Tasks with Bash | Awesome Cheatsheets"
 metaDescription: "Awesome cheatsheet for the Automate Daily Development Tasks with Bash course"
 ---
