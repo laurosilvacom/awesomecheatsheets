@@ -27,13 +27,15 @@ const config = {
 			"/GraphQL-Query-Language",
 			"/Composable-Gatsby-Themes",
 			"/Automate-Daily-Development-Tasks-Bash",
-			"/Immutable-JavaScript-Data-Structures-with-Immer"
+			"/Immutable-JavaScript-Data-Structures-with-Immer",
+			"/Build-Custom-CLI-Tooling-with-oclif-and-TypeScript"
 		],
     	"collapsedNav": [
 			"/GraphQL-Query-Language",
 			"/Composable-Gatsby-Themes",
 			"/Automate-Daily-Development-Tasks-Bash",
-			"/Immutable-JavaScript-Data-Structures-with-Immer"
+			"/Immutable-JavaScript-Data-Structures-with-Immer",
+			"/Build-Custom-CLI-Tooling-with-oclif-and-TypeScript"
     	],
 		"links": [
 			{ "text": "Repo", "link": "https://github.com/laurosilvacom/awesomecheatsheets"},

@@ -1,5 +1,5 @@
 ---
-title: "Immutable JavaScript Data Structures with Immer Course"
+title: "Immutable JavaScript Data Structures with Immer"
 metaTitle: "Immutable JavaScript Data Structures with Immer | Awesome Cheatsheets"
 metaDescription: "Awesome cheatsheet for the Immutable JavaScript Data Structures with Immer course"
 ---
